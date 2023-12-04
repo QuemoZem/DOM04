@@ -1,0 +1,30 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#reloj {
+  font-family: "Arial", sans-serif;
+  font-size: 1.5em;
+  color: white;
+  background-color: #007bff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+  margin: 20px auto;
+}
+
+#fecha,
+#hora {
+  display: block;
+  font-size: 1.2em;
+}
+
+#reloj::after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+  border-bottom: 2px solid white;
+}
